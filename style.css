@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: rgb(224, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.user-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#user-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+input::placeholder {
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#search-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 122, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+
+.progress{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.easy-progress, .medium-progress, .hard-progress{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(96, 194, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    border: 2px solid;
+    border-color: rgba(211, 211, 211, 0.408);
+    background: conic-gradient(rgb(0, 122, 255) var(--progress-degree, 0%), rgb(96, 194, 255) 0%);
+}
+
+
+.stats-card{
+    display: flex;
+    flex-direction: row;
+    gap: 97px;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    font-weight: bold;
+}
