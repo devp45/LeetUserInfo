@@ -11,6 +11,6 @@ This is a simple project to get user info from leetcode.
 
 ## Screenshots
 
-![Screenshot](screenshots/screenshot1.png)
+![Screenshot](image1.png)
 
-![Screenshot](screenshots/screenshot2.png)  
+![Screenshot](image2.png)  
